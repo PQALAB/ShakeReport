@@ -46,6 +46,9 @@ Then, copy this line to start the reporter:
    		return YES;
 	}
 	
+Navigate to Building Settings > build phase > Compile Sources > Compile all .m files in library
+
+Build settings > Precompile prefix header = Yes
 
 # Usage
 
