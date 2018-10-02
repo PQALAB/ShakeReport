@@ -1,6 +1,13 @@
 [![Build Status](https://travis-ci.org/jayztemplier/ShakeReport.png)](https://travis-ci.org/jayztemplier/ShakeReport.png)
 
 # SRReport
+
+<!-- MacBuildServer Install Button -->
+<div class="macbuildserver-block">
+    <a class="macbuildserver-button" href="http://macbuildserver.com/project/github/build/?xcode_project=ShakeReport.xcodeproj&amp;target=ShakeReport&amp;repo_url=git%3A%2F%2Fgithub.com%2Fjayztemplier%2FShakeReport.git&amp;build_conf=Release" target="_blank"><img src="http://com.macbuildserver.github.s3-website-us-east-1.amazonaws.com/button_up.png"/></a><br/><sup><a href="http://macbuildserver.com/github/opensource/" target="_blank">by MacBuildServer</a></sup>
+</div>
+<!-- MacBuildServer Install Button -->
+
 SRReport is a small library which make easy for your testers to report bugs.
 Shake the iDevice, and they will send:
 
@@ -11,24 +18,14 @@ Shake the iDevice, and they will send:
 
 # Installation
 
-If you use Cocoapods, add the `ShakeReport` pod to your `Podfile`.
-
-OR
-
 Add those frameworks to your target:
 
 * QuartzCore
 * MessageUI
 * CoreVideo
 * CoreMedia
-* CoreGraphics
 * AVFoundation
-* Foundation
 * AssetsLibrary
-* Security
-* CFNetwork
-* MobileCoreServices
-* MessageUI
 
 Copy the `library` folder in your project.
 
@@ -127,3 +124,4 @@ SRReport is available under the MIT license. See the LICENSE file for more info
 # Inspiration & Help from others
 ### AFNetworking
 I would like to mention AFNetworking, super useful HTTP library. I used it to create the http request that upload the video to the SRReport backend. I explicitely renamed AFHTTPClient in SRHTTPClient to allow users to use AFNetworking v2 or v1.x without having any conflict with SRReport
+  
